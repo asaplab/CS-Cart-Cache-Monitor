@@ -3,10 +3,9 @@
  *                                                                          *
  *   © ASAP Lab Ltd.                                                        *
  *                                                                          *
- * This  is  commercial  software,  only  users  who have purchased a valid *
- * license  and  accept  to the terms of the  License Agreement can install *
- * and use this program.                                                    *
- ***************************************************************************/
+ * Infrastructure https://asaplab.io/ and hosting https://scalesta.com/     *
+ * solutions built for eCommerce businesses with 24/7/365 monitoring with   *
+ * excellent tech support.                                                  * ****************************************************************************/
 
 namespace Tygh\Addons\AlCacheMonitor\Enum;
 

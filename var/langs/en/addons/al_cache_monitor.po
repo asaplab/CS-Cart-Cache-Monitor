@@ -9,8 +9,8 @@ msgid "Cache monitor"
 msgstr "Cache monitor"
 
 msgctxt "Addons::description::al_cache_monitor"
-msgid "Monitor cache clearings to make a clear view of performance issues that initiate due to clear cache procedures. <a href=\"https://asaplab.io/services/complex-project-performance-investigation\" target=\"_blank\">Request complex deep performance investigation</a>."
-msgstr "Monitor cache clearings to make a clear view of performance issues that initiate due to clear cache procedures. <a href=\"https://asaplab.io/services/complex-project-performance-investigation\" target=\"_blank\">Request complex deep performance investigation</a>."
+msgid "Monitor cache invalidations to make a clear view of performance issues that initiate due cache clearing procedures. <a href=\"https://asaplab.io/services/complex-project-performance-investigation\" target=\"_blank\">Request complex deep performance investigation</a>."
+msgstr "Monitor cache invalidations to make a clear view of performance issues that initiate due cache clearing procedures. <a href=\"https://asaplab.io/services/complex-project-performance-investigation\" target=\"_blank\">Request complex deep performance investigation</a>."
 
 msgctxt "SettingsOptions::al_cache_monitor::track_changed_tables"
 msgid "Track changed tables"
