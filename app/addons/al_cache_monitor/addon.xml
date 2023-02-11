@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>al_cache_monitor</id>
+    <version>1.0.1</version>
+    <priority>5000</priority>
+    <position>1</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <supplier>ASAP Lab</supplier>
+    <supplier_link>https://asaplab.io/services/complex-project-performance-investigation</supplier_link>
+    <authors>
+        <author>
+            <name>ASAP Lab</name>
+            <email>team@asaplab.io</email>
+            <url>https://asaplab.io</url>
+        </author>
+    </authors>
+    <compatibility>
+        <core_version>
+            <min>4.10.0</min>
+        </core_version>
+        <php_version>
+            <min>7.1</min>
+        </php_version>
+    </compatibility>
+
+    <autoload>
+        <psr4 prefix="Tygh\Addons\AlCacheMonitor\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\AlCacheMonitor\Bootstrap</bootstrap>
+
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="track_changed_tables">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#
+                            addons=Y&
+                            bm_blocks=Y&bm_blocks_content=Y&bm_blocks_descriptions=Y&bm_block_statuses=Y&bm_snapping=Y&
+                            categories=Y&category_descriptions=Y&
+                            companies=Y&
+                            images=Y&images_links=Y&
+                            languages=Y&language_values=Y&
+                            products=Y&product_descriptions=Y&
+                            products_categories=Y&product_customer_discounts=Y&
+                            product_features=Y&product_features_descriptions=Y&product_features_values=Y&product_feature_variant_descriptions=Y&
+                            product_filters=Y&product_filter_descriptions=Y&
+                            product_global_option_links=Y&product_options=Y&product_options_descriptions=Y&product_option_variants=Y&product_option_variants_descriptions=Y&
+                            product_prices=Y&product_tabs,product_tabs_descriptions=Y&
+                            promotions=Y&
+                            seo_names=Y&
+                            settings_descriptions=Y&settings_objects=Y&settings_sections=Y&settings_vendor_values=Y
+                        ]]></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:cache_monitor_logs;</item>
+        <item for="install">
+            CREATE TABLE ?:cache_monitor_logs (
+                log_id    int(11) unsigned NOT NULL auto_increment,
+                type      char(1) NOT NULL default 'R',
+                timestamp int(11) unsigned NOT NULL default '0',
+                content   text,
+                request   text,
+                PRIMARY KEY (log_id),
+                KEY idx_timestamp (timestamp)
+            ) Engine=InnoDb DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cache_monitor_logs;</item>
+    </queries>
+</addon>

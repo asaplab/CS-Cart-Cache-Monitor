@@ -1,0 +1,11 @@
+This file contains a list of people who have made large contributions
+to the public version of CS-Cart and Multi-Vendor Cache monitor.
+
+Original design and implementation:
+  Roman Ananev <rananev@asaplab.io>
+
+Large code contributions:
+  Alex Lavrentyev <alavrentyev@simtechdev.org>
+
+Documentation:
+  Roman Ananev <rananev@asaplab.io>

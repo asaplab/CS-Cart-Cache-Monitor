@@ -1,0 +1,4 @@
+.gitlab-ci.yml
+.gitattributes export-ignore
+README.md export-ignore
+CONTRIBUTORS.txt export-ignore

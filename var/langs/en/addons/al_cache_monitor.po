@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::al_cache_monitor"
+msgid "Cache monitor"
+msgstr "Cache monitor"
+
+msgctxt "Addons::description::al_cache_monitor"
+msgid "Monitor cache clearings to make a clear view of performance issues that initiate due to clear cache procedures. <a href=\"https://asaplab.io/services/complex-project-performance-investigation\" target=\"_blank\">Request complex deep performance investigation</a>."
+msgstr "Monitor cache clearings to make a clear view of performance issues that initiate due to clear cache procedures. <a href=\"https://asaplab.io/services/complex-project-performance-investigation\" target=\"_blank\">Request complex deep performance investigation</a>."
+
+msgctxt "SettingsOptions::al_cache_monitor::track_changed_tables"
+msgid "Track changed tables"
+msgstr "Track changed tables"
+
+msgctxt "Languages::cache_monitor_logs"
+msgid "Cache monitor logs"
+msgstr "Cache monitor logs"
+
+msgctxt "Languages::al_cache_monitor.cache_monitor_logs"
+msgid "Cache monitor logs"
+msgstr "Cache monitor logs"
+
+msgctxt "Languages::al_cache_monitor.cache_types.cache"
+msgid "Cache"
+msgstr "Cache"
+
+msgctxt "Languages::al_cache_monitor.cache_types.registry"
+msgid "Registry"
+msgstr "Registry"
+
+msgctxt "Languages::al_cache_monitor.changed_tables"
+msgid "Changed tables"
+msgstr "Changed tables"
+
+msgctxt "Languages::al_cache_monitor.cache_list"
+msgid "Cache list"
+msgstr "Cache list"
+
+msgctxt "Languages::al_cache_monitor.table"
+msgid "Table"
+msgstr "Table"
+
+msgctxt "Languages::al_cache_monitor.compile_check"
+msgid "Auto cache update enabled.<br />Recommended to disable on production in the <a href=\"[link]\">Themes</a>."
+msgstr "Auto cache update enabled.<br />Recommended to disable on production in the <a href=\"[link]\">Themes</a>."
