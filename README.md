@@ -12,6 +12,10 @@ In case you need a comprehensive project and infrastructure performance examinat
 - Informs about ["Rebuild cache automatically"](https://docs.scalesta.com/user-guide/cs-cart/disable-rebuild-cache-automatically/) enabled option
 - Informs about ["disable_block_cache"](https://docs.scalesta.com/user-guide/cs-cart/enable-block-cache/) enabled tweak
 
+| Add-on Settings | Cache log | Notifications |
+|:---:|:---:|:---:|
+| ![Add-on Settings](https://i.gyazo.com/8f7a7b135e6b27af97a0ae6432585e74.png) | ![Cache log](https://i.gyazo.com/4ae3cc7bdc8d6774ea394dfded8a6464.png) | ![Notifications](https://i.gyazo.com/ab9aae5f8a8034450ea6bf5664e95b4d.png) |
+
 ## Installation
 
 ### Manual 
