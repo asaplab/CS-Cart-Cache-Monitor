@@ -16,7 +16,7 @@ In case you need a comprehensive project and infrastructure performance examinat
 
 ### Manual 
 
-1. Download the addon package from [here](#todo).
+1. Download the Zip addon package from [Releases](https://github.com/asaplab/CS-Cart-Cache-Monitor/releases).
 2. Log in to your CS-Cart or Multi-Vendor admin panel and go to `Add-ons → Manage Add-ons`.
 3. Click the gear button, push to "Manual installation" to upload and install the addon.
 4. Once the installation is complete, the addon will start monitoring cache dumping activities.
