@@ -14,7 +14,7 @@ In case you need a comprehensive project and infrastructure performance examinat
 
 | Add-on Settings | Cache log | Notifications |
 |:---:|:---:|:---:|
-| ![Add-on Settings](https://i.gyazo.com/8f7a7b135e6b27af97a0ae6432585e74.png) | ![Cache log](https://i.gyazo.com/4ae3cc7bdc8d6774ea394dfded8a6464.png) | ![Notifications](https://i.gyazo.com/ab9aae5f8a8034450ea6bf5664e95b4d.png) |
+| ![Add-on Settings](https://i.gyazo.com/8f7a7b135e6b27af97a0ae6432585e74.png) | ![Cache log](https://i.gyazo.com/4ae3cc7bdc8d6774ea394dfded8a6464.png) | ![Notification about rebuild cache option](https://i.gyazo.com/573d9cdfdcc4a71b415d3376ac9b168e.png) </br> ![Notification about block cache tweak](https://i.gyazo.com/6caa5084c1ba1bc6b018e1cc23486f76.png) |
 
 ## Installation
 
