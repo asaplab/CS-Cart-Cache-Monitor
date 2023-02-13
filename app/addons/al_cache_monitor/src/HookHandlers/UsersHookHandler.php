@@ -11,6 +11,7 @@ namespace Tygh\Addons\AlCacheMonitor\HookHandlers;
 
 use Tygh\Enum\YesNo;
 use Tygh\Enum\NotificationSeverity;
+use Tygh\Registry;
 use Tygh\Development;
 
 class UsersHookHandler
@@ -20,6 +21,7 @@ class UsersHookHandler
      *
      * Actions performed:
      *  - Shows disable compile check setting
+     *  - Shows disable_block_cache tweak
      *
      * @see fn_login_user
      */
@@ -30,11 +32,21 @@ class UsersHookHandler
             && ACCOUNT_TYPE === 'admin'
             && !empty($udata['is_root'])
             && $udata['is_root'] === YesNo::YES
-            && Development::isEnabled('compile_check')
+            && php_sapi_name() != 'cli'
         ) {
-            fn_set_notification(NotificationSeverity::ERROR, __('warning'), __('al_cache_monitor.compile_check', [
-                '[link]' => fn_url('themes.manage')
-            ]), 'S');
+            if ( Development::isEnabled('compile_check') ) {
+                fn_set_notification(NotificationSeverity::ERROR, __('warning'), __('al_cache_monitor.compile_check', [
+                    '[link]' => fn_url('themes.manage'),
+                    '[docs]' => 'https://docs.scalesta.com/user-guide/cs-cart/disable-rebuild-cache-automatically/'
+                ]), 'S');
+            }
+            if ( Registry::ifGet('config.tweaks.disable_block_cache', true) ) {
+                fn_set_notification(NotificationSeverity::ERROR, __('warning'), __('al_cache_monitor.disable_block_cache', [
+                    '[docs]' => 'https://docs.scalesta.com/user-guide/cs-cart/enable-block-cache/'
+                ]), 'S');
+            }
         }
     }
 }
+
+

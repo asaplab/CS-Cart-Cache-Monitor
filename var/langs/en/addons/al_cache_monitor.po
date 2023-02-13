@@ -45,5 +45,9 @@ msgid "Table"
 msgstr "Table"
 
 msgctxt "Languages::al_cache_monitor.compile_check"
-msgid "Auto cache update enabled.<br />Recommended to disable on production in the <a href=\"[link]\">Themes</a>."
-msgstr "Auto cache update enabled.<br />Recommended to disable on production in the <a href=\"[link]\">Themes</a>."
+msgid "Auto cache update enabled.<br />Recommended to disable on production in the <a href=\"[link]\">Themes</a> (<a href=\"[docs]\" target=\"_blank\">how-to</a>)"
+msgstr "Auto cache update enabled.<br />Recommended to disable on production in the <a href=\"[link]\">Themes</a> (<a href=\"[docs]\" target=\"_blank\">how-to</a>)."
+
+msgctxt "Languages::al_cache_monitor.disable_block_cache"
+msgid "Block cache is disables via tweaks in configuration file.<br />Recommended to disable on production in the <a href=\"[docs]\" target=\"_blank\">configuration file</a>."
+msgstr "Block cache is disables via tweaks in configuration file.<br />Recommended to disable on production in the <a href=\"[docs]\" target=\"_blank\" >configuration file</a>."
