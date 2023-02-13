@@ -7,7 +7,7 @@ In case you need a comprehensive project and infrastructure performance examinat
 ## Features
 
 - Monitors global cache invalidation processes
-- Monitors erformance-impacting partial cache invalidation processes
+- Monitors performance-impacting partial cache invalidation processes
 - Provides detailed logs for cache invalidation actions
 - Informs about ["Rebuild cache automatically"](https://docs.scalesta.com/user-guide/cs-cart/disable-rebuild-cache-automatically/) enabled option
 - Informs about ["disable_block_cache"](https://docs.scalesta.com/user-guide/cs-cart/enable-block-cache/) enabled tweak
