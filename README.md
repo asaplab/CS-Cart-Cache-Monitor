@@ -1,13 +1,13 @@
 # CS-Cart/Multi-Vendor Cache Monitor Addon
 
-This addon provides monitoring for cache invalidation procedures in CS-Cart and Multi-Vendor. It monitors both global cache invalidation processes and small but performance-impacting partial cache invalidation processes.
+This add-on provides monitoring feature for cache invalidation procedures in CS-Cart and Multi-Vendor. It tracks both global cache invalidation processes and performance-impacting partial cache invalidation processes.
 
-In case you need a comprehensive project and infrastructure performance study, you can ask for a [Complex Project Performance Investigation](https://asaplab.io/services/complex-project-performance-investigation). This service includes both the infrastructure and the project code performance audit, based on the issues that will be detected as part of the load testing of the project and as specified by you.
+In case you need a comprehensive project and infrastructure performance examination, you can ask for a [Complex Project Performance Investigation](https://asaplab.io/services/complex-project-performance-investigation). This service provides the infrastructure and the project code performance audit, including the load and stress testing of the project, that helps to find out root causes of performance issues of a web-site. 
 
 ## Features
 
 - Monitors global cache invalidation processes
-- Monitors small but performance-impacting partial cache invalidation processes
+- Monitors erformance-impacting partial cache invalidation processes
 - Provides detailed logs for cache invalidation actions
 - Informs about ["Rebuild cache automatically"](https://docs.scalesta.com/user-guide/cs-cart/disable-rebuild-cache-automatically/) enabled option
 
