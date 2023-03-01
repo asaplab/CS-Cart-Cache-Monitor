@@ -5,7 +5,8 @@
  *                                                                          *
  * Infrastructure https://asaplab.io/ and hosting https://scalesta.com/     *
  * solutions built for eCommerce businesses with 24/7/365 monitoring with   *
- * excellent tech support.                                                  * ****************************************************************************/
+ * excellent tech support.                                                  *
+ * **************************************************************************/
 
 namespace Tygh\Addons\AlCacheMonitor\Logger\Logger;
 

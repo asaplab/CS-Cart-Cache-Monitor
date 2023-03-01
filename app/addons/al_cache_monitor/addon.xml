@@ -74,3 +74,4 @@
         <item for="uninstall">DROP TABLE IF EXISTS ?:cache_monitor_logs;</item>
     </queries>
 </addon>
+
