@@ -1,4 +1,4 @@
-# CS-Cart/Multi-Vendor Cache Monitor Ad-don
+# CS-Cart/Multi-Vendor Cache Monitor Add-on
 
 This add-on provides monitoring feature for cache invalidation procedures in CS-Cart and Multi-Vendor. It tracks both global cache invalidation processes and performance-impacting partial cache invalidation processes.
 
